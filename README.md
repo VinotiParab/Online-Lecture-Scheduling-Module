@@ -4,6 +4,7 @@ Overview: This will be a lecture scheduling module, you have to build an admin
 panel wherein the admin should have the functionality to add courses and their
 lectures along with the date of the lectures. The backend code written should make
 sure that no two schedules set for lectures clash with each other.
+
 Admin Panel:
 1. admin can see list of all Instructors (You can add random users)
 2. admin can add courses
@@ -23,5 +24,6 @@ date.
 (example: if a course’s lecture has been assigned to instructor rahul on 1st
 January, then the admin should be unable to assign him any other lecture on
 1st January.
+
 Instructor panel: This panel should have the list of all lectures assigned to the logged
 in instructor with dates and course names.
