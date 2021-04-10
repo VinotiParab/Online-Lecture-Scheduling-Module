@@ -1,0 +1,33 @@
+mysql database used
+
+---------------------------------------------------------
+create database olsm; 
+
+show databases; 
+
+use olsm; 
+
+
+create table course
+(cid int(11) primary key auto_increment, 
+name varchar(50), 
+level varchar(50), 
+description varchar(1000), 
+image longblob); 
+
+create table instructor
+(instructor_id int(11) primary key auto_increment, 
+name varchar(50), 
+email varchar(50),
+password varchar(50));
+
+create table lecture
+(lecture_id int(11) primary key auto_increment, 
+cid int(11), 
+course_name varchar(50), 
+instructor_id int(11), 
+instructor_name varchar(50), 
+lec_date date, 
+lec_time time, 
+batch int(2)); 
+

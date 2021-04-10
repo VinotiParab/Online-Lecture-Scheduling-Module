@@ -1,0 +1,18 @@
+SMAP
+add_005finstructor_jsp.java
+JSP
+*S JSP
+*F
++ 0 add_instructor.jsp
+Admin/add_instructor.jsp
+*L
+5,10:49
+14:58,2
+15,68:60
+83,20:129
+102,6:149
+108,2:156
+109,6:158
+115,6:165
+120,3:171
+*E
